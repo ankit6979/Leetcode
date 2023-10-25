@@ -1,1 +1,2 @@
-Number of Flowers in Full Bloom: https://leetcode.com/problems/number-of-flowers-in-full-bloom/
+1. Number of Flowers in Full Bloom: https://leetcode.com/problems/number-of-flowers-in-full-bloom/
+2. Find in Mountain Array: https://leetcode.com/problems/find-in-mountain-array
