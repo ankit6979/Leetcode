@@ -3,3 +3,10 @@
 3. Constrained subsequence sum: https://leetcode.com/problems/constrained-subsequence-sum
 4. k-th-symbol-in-grammar(not exactly dp but recursion): https://leetcode.com/problems/k-th-symbol-in-grammar/
 5. Coin Change2: https://leetcode.com/problems/coin-change-ii/
+6. Decode ways: https://leetcode.com/problems/decode-ways
+7. Number of dice rolls with target: https://leetcode.com/problems/number-of-dice-rolls-with-target-sum
+8. Longest increasing subsequence: https://leetcode.com/problems/longest-increasing-subsequence
+9. Max profit in job scheduling: https://leetcode.com/problems/maximum-profit-in-job-scheduling
+10. longest common subsequence: https://leetcode.com/problems/longest-common-subsequence
+11. partition array for max sum: https://leetcode.com/problems/partition-array-for-maximum-sum
+12. Perfect square: https://leetcode.com/problems/perfect-squares
