@@ -1,1 +1,2 @@
 1. Pseudo-Palindromic Paths in a Binary Tree: https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree
+2. number-of-steps-to-reduce-a-number-in-binary-representation-to-one: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/?envType=daily-question&envId=2024-05-29

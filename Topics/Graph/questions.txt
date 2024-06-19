@@ -2,3 +2,4 @@
 1. Parallel courses III: https://leetcode.com/problems/parallel-courses-iii
 2. Validate binary tree nodes: https://leetcode.com/problems/validate-binary-tree-nodes/description
 3. BFS (Diagonal traverse): https://leetcode.com/problems/diagonal-traverse-ii
+4. Minimum height tree: https://leetcode.com/problems/minimum-height-trees

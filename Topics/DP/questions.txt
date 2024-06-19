@@ -10,3 +10,7 @@
 10. longest common subsequence: https://leetcode.com/problems/longest-common-subsequence
 11. partition array for max sum: https://leetcode.com/problems/partition-array-for-maximum-sum
 12. Perfect square: https://leetcode.com/problems/perfect-squares
+13. palindromic substring: https://leetcode.com/problems/palindromic-substrings
+14. 3D DP - Cherry PickupII: https://leetcode.com/problems/cherry-pickup-ii
+15. flight with k stops(DP with iteration inside): https://leetcode.com/problems/cheapest-flights-within-k-stops
+16, student attendance record2 : https://leetcode.com/problems/student-attendance-record-ii/

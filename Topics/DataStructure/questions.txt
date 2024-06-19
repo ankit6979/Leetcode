@@ -1,1 +1,3 @@
-https://leetcode.com/problems/design-a-food-rating-system/ - Map of priority queue
+Map of priority queue - https://leetcode.com/problems/design-a-food-rating-system/
+DSU + Sieve - https://leetcode.com/problems/greatest-common-divisor-traversal
+Tries - https://leetcode.com/problems/replace-words

@@ -1,0 +1,2 @@
+Path with maximum gold - https://leetcode.com/problems/path-with-maximum-gold/
+Generate all subsets - https://leetcode.com/problems/sum-of-all-subset-xor-totals

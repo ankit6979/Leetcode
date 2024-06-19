@@ -1,34 +1,26 @@
-#include<bits/stdc++.h>
-using namespace std;
 class Solution {
 public:
-    int maximumScore(vector<int>& nums, int k) {
-        int max_score=nums[k], min_num=nums[k], curr_score;
-        int i=k-1, j=k+1;
-        while(i>=0 || j<nums.size()){
-            int left_val = i<0?-1:nums[i];
-            int right_val = j>=nums.size()?-1:nums[j];
-            if(left_val<=right_val){
-                if(min_num>right_val){
-                    min_num = right_val;
-                }
-                curr_score = min_num*(j-i);
-                if(curr_score>max_score){
-                    max_score = curr_score;
-                }
-                j++;
-            }
-            else if(left_val>right_val){
-                if(min_num>left_val){
-                    min_num = left_val;
-                }
-                curr_score = min_num*(j-i);
-                if(curr_score>max_score){
-                    max_score = curr_score;
-                }
-                i--;
-            }
+    int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+        if (k <= 1) {
+            return 0;
         }
-        return max_score;
+        int total_subarray = 0;
+        int curr_prdt = 1;
+        int left = 0;
+        for (int right = 0; right < nums.size(); right++) {
+            curr_prdt *= nums[right];
+            while (curr_prdt >= k) {
+                curr_prdt /= nums[left];
+                left++;
+            }
+            total_subarray += (right - left + 1);
+        }
+        return total_subarray < 0 ? 0 : total_subarray;
     }
 };
+auto init = []() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    return 'c';
+}();
